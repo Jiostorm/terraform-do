@@ -12,6 +12,10 @@
 - `lifecycles.tf` - contains the `resource` _block_ related to resource lifecycles
 - `provisioners.tf` - contains the `resource` _block_ related to resource provisionings
 
+### Scripts
+- `install-docker.sh` - installation script for **Docker** Engine package
+- `install-gitlab-runner.sh` - installation script for **Gitlab** Runner package
+
 ## Di-Graph Visualization
 ![tf graph visualization](./images/tf-do-gl.svg)
 
