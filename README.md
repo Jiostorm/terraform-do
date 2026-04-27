@@ -12,6 +12,9 @@
 - `lifecycles.tf` - contains the `resource` _block_ related to resource lifecycles
 - `provisioners.tf` - contains the `resource` _block_ related to resource provisionings
 
+## Di-Graph Visualization
+![tf graph visualization](./images/tf-do-gl.svg)
+
 ## Providers
 - [DigitalOcean](https://registry.terraform.io/providers/digitalocean/digitalocean/latest)
 - [Gitlab](https://registry.terraform.io/providers/gitlabhq/gitlab/latest)

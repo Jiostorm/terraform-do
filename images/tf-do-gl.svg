@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1432pt" height="610pt" viewBox="0.00 0.00 1432.00 610.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 605.6)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-605.6 1428,-605.6 1428,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_module.digitalocean_gitlab_runner</title>
+<polygon fill="none" stroke="black" points="8,-8 8,-593.6 1116,-593.6 1116,-8 8,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="562" y="-577" font-family="Courier,monospace" font-size="14.00">module.digitalocean_gitlab_runner</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_module.gitlab</title>
+<polygon fill="none" stroke="black" points="1124,-368 1124,-516.8 1416,-516.8 1416,-368 1124,-368"/>
+<text xml:space="preserve" text-anchor="middle" x="1270" y="-500.2" font-family="Courier,monospace" font-size="14.00">module.gitlab</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.data.digitalocean_project.gitlab_runner -->
+<g id="node1" class="node">
+<title>module.digitalocean_gitlab_runner.data.digitalocean_project.gitlab_runner</title>
+<polygon fill="none" stroke="black" points="450.83,-196 107.17,-196 107.17,-160 450.83,-160 450.83,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="279" y="-173.8" font-family="Courier,monospace" font-size="14.00">data.digitalocean_project.gitlab_runner</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.data.digitalocean_ssh_keys.key_pairs -->
+<g id="node2" class="node">
+<title>module.digitalocean_gitlab_runner.data.digitalocean_ssh_keys.key_pairs</title>
+<polygon fill="none" stroke="black" points="334.22,-124 15.78,-124 15.78,-88 334.22,-88 334.22,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="175" y="-101.8" font-family="Courier,monospace" font-size="14.00">data.digitalocean_ssh_keys.key_pairs</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner -->
+<g id="node3" class="node">
+<title>module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner</title>
+<polygon fill="none" stroke="black" points="770.82,-196 469.18,-196 469.18,-160 770.82,-160 770.82,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="620" y="-173.8" font-family="Courier,monospace" font-size="14.00">digitalocean_droplet.gitlab_runner</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner&#45;&gt;module.digitalocean_gitlab_runner.data.digitalocean_ssh_keys.key_pairs -->
+<g id="edge1" class="edge">
+<title>module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner-&gt;module.digitalocean_gitlab_runner.data.digitalocean_ssh_keys.key_pairs</title>
+<path fill="none" stroke="black" d="M508.86,-159.52C444.49,-149.39 363.37,-136.63 297.21,-126.22"/>
+<polygon fill="black" stroke="black" points="297.8,-122.77 287.38,-124.68 296.71,-129.69 297.8,-122.77"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_ssh_key.droplet_shared -->
+<g id="node5" class="node">
+<title>module.digitalocean_gitlab_runner.digitalocean_ssh_key.droplet_shared</title>
+<polygon fill="none" stroke="black" points="662.02,-124 351.98,-124 351.98,-88 662.02,-88 662.02,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="507" y="-101.8" font-family="Courier,monospace" font-size="14.00">digitalocean_ssh_key.droplet_shared</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner&#45;&gt;module.digitalocean_gitlab_runner.digitalocean_ssh_key.droplet_shared -->
+<g id="edge2" class="edge">
+<title>module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner-&gt;module.digitalocean_gitlab_runner.digitalocean_ssh_key.droplet_shared</title>
+<path fill="none" stroke="black" d="M591.78,-159.52C577.51,-150.68 560.01,-139.84 544.62,-130.3"/>
+<polygon fill="black" stroke="black" points="546.49,-127.35 536.15,-125.06 542.81,-133.3 546.49,-127.35"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.do_droplet_gitlab_runner_lifecycle -->
+<g id="node7" class="node">
+<title>module.digitalocean_gitlab_runner.terraform_data.do_droplet_gitlab_runner_lifecycle</title>
+<polygon fill="none" stroke="black" points="1107.83,-124 680.17,-124 680.17,-88 1107.83,-88 1107.83,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="894" y="-101.8" font-family="Courier,monospace" font-size="14.00">terraform_data.do_droplet_gitlab_runner_lifecycle</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner&#45;&gt;module.digitalocean_gitlab_runner.terraform_data.do_droplet_gitlab_runner_lifecycle -->
+<g id="edge3" class="edge">
+<title>module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner-&gt;module.digitalocean_gitlab_runner.terraform_data.do_droplet_gitlab_runner_lifecycle</title>
+<path fill="none" stroke="black" d="M688.43,-159.52C726.83,-149.71 774.91,-137.43 814.91,-127.21"/>
+<polygon fill="black" stroke="black" points="815.67,-130.62 824.5,-124.76 813.94,-123.84 815.67,-130.62"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_project_resources.gitlab_runnner -->
+<g id="node4" class="node">
+<title>module.digitalocean_gitlab_runner.digitalocean_project_resources.gitlab_runnner</title>
+<polygon fill="none" stroke="black" points="568.03,-268 173.97,-268 173.97,-232 568.03,-232 568.03,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="371" y="-245.8" font-family="Courier,monospace" font-size="14.00">digitalocean_project_resources.gitlab_runnner</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_project_resources.gitlab_runnner&#45;&gt;module.digitalocean_gitlab_runner.data.digitalocean_project.gitlab_runner -->
+<g id="edge4" class="edge">
+<title>module.digitalocean_gitlab_runner.digitalocean_project_resources.gitlab_runnner-&gt;module.digitalocean_gitlab_runner.data.digitalocean_project.gitlab_runner</title>
+<path fill="none" stroke="black" d="M348.26,-231.7C336.98,-223.11 323.17,-212.61 310.86,-203.24"/>
+<polygon fill="black" stroke="black" points="313.08,-200.53 303,-197.26 308.84,-206.1 313.08,-200.53"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_project_resources.gitlab_runnner&#45;&gt;module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner -->
+<g id="edge5" class="edge">
+<title>module.digitalocean_gitlab_runner.digitalocean_project_resources.gitlab_runnner-&gt;module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner</title>
+<path fill="none" stroke="black" d="M433.19,-231.52C467.78,-221.79 511.03,-209.64 547.19,-199.47"/>
+<polygon fill="black" stroke="black" points="548.03,-202.87 556.71,-196.79 546.14,-196.13 548.03,-202.87"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.tls_private_key.gitlab_shared -->
+<g id="node14" class="node">
+<title>module.digitalocean_gitlab_runner.tls_private_key.gitlab_shared</title>
+<polygon fill="none" stroke="black" points="636.82,-52 377.18,-52 377.18,-16 636.82,-16 636.82,-52"/>
+<text xml:space="preserve" text-anchor="middle" x="507" y="-29.8" font-family="Courier,monospace" font-size="14.00">tls_private_key.gitlab_shared</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.digitalocean_ssh_key.droplet_shared&#45;&gt;module.digitalocean_gitlab_runner.tls_private_key.gitlab_shared -->
+<g id="edge6" class="edge">
+<title>module.digitalocean_gitlab_runner.digitalocean_ssh_key.droplet_shared-&gt;module.digitalocean_gitlab_runner.tls_private_key.gitlab_shared</title>
+<path fill="none" stroke="black" d="M507,-87.7C507,-80.41 507,-71.73 507,-63.54"/>
+<polygon fill="black" stroke="black" points="510.5,-63.62 507,-53.62 503.5,-63.62 510.5,-63.62"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.copy_installers -->
+<g id="node6" class="node">
+<title>module.digitalocean_gitlab_runner.terraform_data.copy_installers</title>
+<polygon fill="none" stroke="black" points="941.02,-268 672.98,-268 672.98,-232 941.02,-232 941.02,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="807" y="-245.8" font-family="Courier,monospace" font-size="14.00">terraform_data.copy_installers</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.copy_installers&#45;&gt;module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner -->
+<g id="edge7" class="edge">
+<title>module.digitalocean_gitlab_runner.terraform_data.copy_installers-&gt;module.digitalocean_gitlab_runner.digitalocean_droplet.gitlab_runner</title>
+<path fill="none" stroke="black" d="M760.29,-231.52C735.1,-222.08 703.79,-210.37 677.15,-200.39"/>
+<polygon fill="black" stroke="black" points="678.44,-197.14 667.85,-196.91 675.99,-203.7 678.44,-197.14"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.docker_lifecycle -->
+<g id="node8" class="node">
+<title>module.digitalocean_gitlab_runner.terraform_data.docker_lifecycle</title>
+<polygon fill="none" stroke="black" points="694.22,-340 417.78,-340 417.78,-304 694.22,-304 694.22,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="556" y="-317.8" font-family="Courier,monospace" font-size="14.00">terraform_data.docker_lifecycle</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.gitlab_runner_lifecycle -->
+<g id="node9" class="node">
+<title>module.digitalocean_gitlab_runner.terraform_data.gitlab_runner_lifecycle</title>
+<polygon fill="none" stroke="black" points="719.63,-484 384.37,-484 384.37,-448 719.63,-448 719.63,-484"/>
+<text xml:space="preserve" text-anchor="middle" x="552" y="-461.8" font-family="Courier,monospace" font-size="14.00">terraform_data.gitlab_runner_lifecycle</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner -->
+<g id="node10" class="node">
+<title>module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner</title>
+<polygon fill="none" stroke="black" points="1085.83,-560.8 658.17,-560.8 658.17,-524.8 1085.83,-524.8 1085.83,-560.8"/>
+<text xml:space="preserve" text-anchor="middle" x="872" y="-538.6" font-family="Courier,monospace" font-size="14.00">terraform_data.install_and_register_gitlab_runner</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner&#45;&gt;module.digitalocean_gitlab_runner.terraform_data.gitlab_runner_lifecycle -->
+<g id="edge8" class="edge">
+<title>module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner-&gt;module.digitalocean_gitlab_runner.terraform_data.gitlab_runner_lifecycle</title>
+<path fill="none" stroke="black" d="M765.17,-524.35C752.94,-521.99 740.67,-519.46 729,-516.8 692.36,-508.47 652,-497.27 619.09,-487.6"/>
+<polygon fill="black" stroke="black" points="620.26,-484.3 609.67,-484.82 618.27,-491.01 620.26,-484.3"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.time_sleep.post_install_docker -->
+<g id="node13" class="node">
+<title>module.digitalocean_gitlab_runner.time_sleep.post_install_docker</title>
+<polygon fill="none" stroke="black" points="1006.02,-484 737.98,-484 737.98,-448 1006.02,-448 1006.02,-484"/>
+<text xml:space="preserve" text-anchor="middle" x="872" y="-461.8" font-family="Courier,monospace" font-size="14.00">time_sleep.post_install_docker</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner&#45;&gt;module.digitalocean_gitlab_runner.time_sleep.post_install_docker -->
+<g id="edge9" class="edge">
+<title>module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner-&gt;module.digitalocean_gitlab_runner.time_sleep.post_install_docker</title>
+<path fill="none" stroke="black" d="M872,-524.45C872,-515.86 872,-505.27 872,-495.52"/>
+<polygon fill="black" stroke="black" points="875.5,-495.77 872,-485.77 868.5,-495.77 875.5,-495.77"/>
+</g>
+<!-- module.gitlab.gitlab_user_runner.group_runner -->
+<g id="node16" class="node">
+<title>module.gitlab.gitlab_user_runner.group_runner</title>
+<polygon fill="none" stroke="black" points="1408.22,-484 1131.78,-484 1131.78,-448 1408.22,-448 1408.22,-484"/>
+<text xml:space="preserve" text-anchor="middle" x="1270" y="-461.8" font-family="Courier,monospace" font-size="14.00">gitlab_user_runner.group_runner</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner&#45;&gt;module.gitlab.gitlab_user_runner.group_runner -->
+<g id="edge10" class="edge">
+<title>module.digitalocean_gitlab_runner.terraform_data.install_and_register_gitlab_runner-&gt;module.gitlab.gitlab_user_runner.group_runner</title>
+<path fill="none" stroke="black" d="M1079.57,-524.31C1093.3,-522.09 1106.88,-519.6 1120,-516.8 1152.22,-509.92 1187.21,-498.54 1215.29,-488.39"/>
+<polygon fill="black" stroke="black" points="1216.48,-491.68 1224.66,-484.95 1214.06,-485.11 1216.48,-491.68"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.install_docker -->
+<g id="node11" class="node">
+<title>module.digitalocean_gitlab_runner.terraform_data.install_docker</title>
+<polygon fill="none" stroke="black" points="979.82,-412 720.18,-412 720.18,-376 979.82,-376 979.82,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="850" y="-389.8" font-family="Courier,monospace" font-size="14.00">terraform_data.install_docker</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.install_docker&#45;&gt;module.digitalocean_gitlab_runner.terraform_data.docker_lifecycle -->
+<g id="edge11" class="edge">
+<title>module.digitalocean_gitlab_runner.terraform_data.install_docker-&gt;module.digitalocean_gitlab_runner.terraform_data.docker_lifecycle</title>
+<path fill="none" stroke="black" d="M776.57,-375.52C735.19,-365.66 683.32,-353.31 640.28,-343.07"/>
+<polygon fill="black" stroke="black" points="641.27,-339.7 630.73,-340.79 639.65,-346.51 641.27,-339.7"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.time_sleep.post_copy_installers -->
+<g id="node12" class="node">
+<title>module.digitalocean_gitlab_runner.time_sleep.post_copy_installers</title>
+<polygon fill="none" stroke="black" points="988.22,-340 711.78,-340 711.78,-304 988.22,-304 988.22,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="850" y="-317.8" font-family="Courier,monospace" font-size="14.00">time_sleep.post_copy_installers</text>
+</g>
+<!-- module.digitalocean_gitlab_runner.terraform_data.install_docker&#45;&gt;module.digitalocean_gitlab_runner.time_sleep.post_copy_installers -->
+<g id="edge12" class="edge">
+<title>module.digitalocean_gitlab_runner.terraform_data.install_docker-&gt;module.digitalocean_gitlab_runner.time_sleep.post_copy_installers</title>
+<path fill="none" stroke="black" d="M850,-375.7C850,-368.41 850,-359.73 850,-351.54"/>
+<polygon fill="black" stroke="black" points="853.5,-351.62 850,-341.62 846.5,-351.62 853.5,-351.62"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.time_sleep.post_copy_installers&#45;&gt;module.digitalocean_gitlab_runner.terraform_data.copy_installers -->
+<g id="edge13" class="edge">
+<title>module.digitalocean_gitlab_runner.time_sleep.post_copy_installers-&gt;module.digitalocean_gitlab_runner.terraform_data.copy_installers</title>
+<path fill="none" stroke="black" d="M839.37,-303.7C834.58,-295.9 828.81,-286.51 823.48,-277.83"/>
+<polygon fill="black" stroke="black" points="826.52,-276.08 818.3,-269.39 820.55,-279.75 826.52,-276.08"/>
+</g>
+<!-- module.digitalocean_gitlab_runner.time_sleep.post_install_docker&#45;&gt;module.digitalocean_gitlab_runner.terraform_data.install_docker -->
+<g id="edge14" class="edge">
+<title>module.digitalocean_gitlab_runner.time_sleep.post_install_docker-&gt;module.digitalocean_gitlab_runner.terraform_data.install_docker</title>
+<path fill="none" stroke="black" d="M866.56,-447.7C864.22,-440.24 861.42,-431.32 858.79,-422.97"/>
+<polygon fill="black" stroke="black" points="862.17,-422.04 855.83,-413.55 855.49,-424.14 862.17,-422.04"/>
+</g>
+<!-- module.gitlab.data.gitlab_group.cloud -->
+<g id="node15" class="node">
+<title>module.gitlab.data.gitlab_group.cloud</title>
+<polygon fill="none" stroke="black" points="1374.62,-412 1165.38,-412 1165.38,-376 1374.62,-376 1374.62,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="1270" y="-389.8" font-family="Courier,monospace" font-size="14.00">data.gitlab_group.cloud</text>
+</g>
+<!-- module.gitlab.gitlab_user_runner.group_runner&#45;&gt;module.gitlab.data.gitlab_group.cloud -->
+<g id="edge15" class="edge">
+<title>module.gitlab.gitlab_user_runner.group_runner-&gt;module.gitlab.data.gitlab_group.cloud</title>
+<path fill="none" stroke="black" d="M1270,-447.7C1270,-440.41 1270,-431.73 1270,-423.54"/>
+<polygon fill="black" stroke="black" points="1273.5,-423.62 1270,-413.62 1266.5,-423.62 1273.5,-423.62"/>
+</g>
+</g>
+</svg>
